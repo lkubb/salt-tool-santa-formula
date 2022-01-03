@@ -1,0 +1,4 @@
+tool:
+  santa:
+    config:
+      ClientMode: 1 # Monitor
