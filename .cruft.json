@@ -1,0 +1,51 @@
+{
+  "template": "https://github.com/lkubb/salt-tool-template-formula",
+  "commit": "61eeb787bd281ccfa613bdb1a0d62776a3648bb5",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "_extensions": [
+        "local_extensions.YAMLDumper"
+      ],
+      "_jinja2_env_vars": {
+        "block_start_string": "{!",
+        "block_end_string": "!}",
+        "variable_start_string": "{=",
+        "variable_end_string": "=}",
+        "comment_start_string": "{@",
+        "comment_end_string": "@}"
+      },
+      "name": "Santa",
+      "abbr": "santa",
+      "abbr_pysafe": "santa",
+      "pkg": "santa",
+      "modstate": "n",
+      "needs_repo": "n",
+      "has_service": "n",
+      "mac_library": "n",
+      "mac_cask": "y",
+      "has_xdg": "n",
+      "needs_xdg_help": "n",
+      "has_conffile_only": "n",
+      "default_confdir": ".santa",
+      "default_confdir_mac": ".santa",
+      "default_conffile": "config",
+      "xdg_dirname": "",
+      "xdg_conffile": "",
+      "has_configsync": "n",
+      "has_config_template": "y",
+      "has_completions": "n",
+      "has_tests": "n",
+      "git_username": "lkubb",
+      "_lookup": {},
+      "_settings": {},
+      "_usersettings": {
+        "config": {
+          "ClientMode": 1
+        }
+      },
+      "_template": "https://github.com/lkubb/salt-tool-template-formula"
+    }
+  },
+  "directory": null
+}

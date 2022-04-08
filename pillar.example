@@ -1,4 +1,32 @@
-tool:
-  santa:
-    config:
-      ClientMode: 1 # Monitor
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+# yamllint disable rule:comments-indentation
+---
+######################################################################
+# Mind that this is to be read as an overview of available
+# settings which can be set in many different ways, not only
+# by providing pillar values.
+# The different sources will be merged. For further information,
+# please see the docs, `libmapstack.jinja` as well as the configured
+# default sources in `parameters/map_jinja.yaml`.
+#
+# This documentation will need to be updated once there is
+# some learned experience. @TODO
+######################################################################
+
+tool_santa:
+
+    # Sets configuration values, will be installed as System Profile.
+    # See official docs for details: https://santa.dev/deployment/configuration.html
+  config:
+    ClientMode: 1  # Monitor
+
+######################################################################
+# The following settings define default values for this formula,
+# depending on different grains. You should not have to modify them
+# in most cases. For a full overview, see the different files
+# in `parameters`.
+######################################################################
+  lookup:
+    pkg:
+      name: santa
