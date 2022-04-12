@@ -9,6 +9,7 @@
 include:
   - {{ sls_config_clean }}
 
+
 Santa is removed:
   pkg.removed:
     - name: {{ santa.lookup.pkg.name }}
