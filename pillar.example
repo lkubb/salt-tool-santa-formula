@@ -6,11 +6,8 @@
 # settings which can be set in many different ways, not only
 # by providing pillar values.
 # The different sources will be merged. For further information,
-# please see the docs, `libmapstack.jinja` as well as the configured
-# default sources in `parameters/map_jinja.yaml`.
-#
-# This documentation will need to be updated once there is
-# some learned experience. @TODO
+# please see the docs, https://lkubb.github.io/saltext-formula/
+# as well as the configured default sources in `parameters/map_jinja.yaml`.
 ######################################################################
 
 tool_santa:

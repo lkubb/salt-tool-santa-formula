@@ -1,5 +1,5 @@
-Welcome to salt-tool-santa-formula's documentation!
-===================================================
+Welcome to tool-santa-formula's documentation!
+==============================================
 
 .. toctree::
    :maxdepth: 2
